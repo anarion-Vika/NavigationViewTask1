@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--<group>-->
+        <!--<item-->
+            <!--android:id="@+id/iRegistrationOrLogin"-->
+            <!--android:title="@string/registr_or_login_title"-->
+            <!--app:actionLayout="@layout/menu_item_1"/>-->
+        <!--<item-->
+            <!--android:id="@+id/iMain"-->
+            <!--android:icon="@drawable/ic_launcher_foreground"-->
+            <!--android:title="@string/main_titile" />-->
+        <!--<item-->
+            <!--android:id="@+id/iWorkShem"-->
+            <!--android:icon="@drawable/ic_launcher_foreground"-->
+            <!--android:title="@string/work_shem" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/iReviews"-->
+            <!--android:icon="@drawable/ic_launcher_foreground"-->
+            <!--android:title="@string/reviews_titile" />-->
+        <!--<item-->
+            <!--android:id="@+id/iAboutUs"-->
+            <!--android:icon="@drawable/ic_launcher_foreground"-->
+            <!--android:title="@string/about_us" />-->
+    <!--</group>-->
+    <group  android:id="@+id/group2">
+        <item
+            android:id="@+id/iTodayStatictic"
+            
+            android:title="@string/today_statictic"
+            />
+    </group>
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/iAllSchem"
+            android:title="@string/all_worked_schem" />
+    </group >
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/iAllEarned"
+            android:title="Люди заработали: 198070 руб" />
+    </group>
+    <!--<group>-->
+        <!--<item-->
+            <!--android:id="@+id/iLastWin"-->
+            <!--android:title="Последний победитель: "-->
+           <!--/>-->
+    <!--</group>-->
+
+    <!--<group android:id="@+id/group5">-->
+        <!--<item-->
+            <!--android:id="@+id/iLastWin1"-->
+
+            <!--app:actionLayout="@layout/last_win_menu_main"-->
+            <!--tools:ignore="MenuTitle" />-->
+    <!--</group>-->
+
+
+
+</menu>
